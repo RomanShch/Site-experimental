@@ -7,6 +7,9 @@ a{
     font-size: 16px;
     line-height: 20px;
 }
+.link:hover{
+    color: crimson;
+}
 
 .header1{
     color: #222222;
@@ -29,4 +32,25 @@ a{
     font-weight: 700;
     font-size: 36px;
     line-height: 80px;
+}
+
+.image1{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.image3{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.image3:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 5px 10px rgba(0,0,0,0.3);
+    transition: transform 500ms, box-shadow 500ms;
+}
+
+p::selection{
+    color: aqua;
+    background-color: palevioletred;
 }
