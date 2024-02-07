@@ -47,6 +47,11 @@ a{
 .image3:hover{
     transform: scale(1.1);
     box-shadow: 20px 20px 5px 10px rgba(0,0,0,0.3);
+    
+    
+    
+}
+.image3{
     transition: transform 500ms, box-shadow 500ms;
 }
 
